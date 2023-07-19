@@ -1,7 +1,26 @@
-# 🗒 Intro
+---
+description: DB에서 Index란 무엇인가!
+---
 
-{% hint style="info" %}
-문제풀이 형태로 진행하고 있었던 타임어택 SQL 스터디를 빅쿼리 스터디로 전환하기로 했다. 우리의 next 목표는 7월안에 <구글 빅쿼리 완벽 가이드> 책을 끝내고, 당당하게 GCP 이해도 높음을 이력서에 어필하는 것이다.
+# DB Index
 
-Google Analytics4, Firebase 예시 데이터셋을 위주로 뜯어보고 실제 서비스의 로그 데이터를 분석할 때, 어떤 쿼리문을 작성하면 좋을지를 위주로 연습하려고 한다.
-{% endhint %}
+## Index가 중요한 이유
+
+* full scan보다 더 빨리 찾도록 도와줌
+* 시간 복잡도는 O(logN) (B-tree based index)
+* 조건을 만족하는 튜플을 빠르게 조회하기 위해
+* 빠르게 정렬하거나 그룹핑 하기 위해
+
+## Index 거는 법
+
+```sql
+SELECT * FROM player WHERE name = 'Sonny';
+SELECT * FROM player WHERE team_id = 105 and backnumber = 7;
+
+CREATE INDEX player_name_idx ON player(name); //중복 허용
+CREATE UNIQUE INDEX team_id_backnumber_idx ON player(team_id, backnumber); //중복 비허용
+```
+
+* 혹은 CREATE TABLE 하면서 만드는 법
+
+Index 동작방식

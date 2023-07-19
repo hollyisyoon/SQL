@@ -1,8 +1,11 @@
 # Table of contents
 
-* [🗒 Intro](README.md)
+## 📁 SQL
 
-## Meeting Template
+* [DB Index](README.md)
+* [Untitled](sql/untitled.md)
 
-* [책 <구글 빅쿼리 완벽 가이드>](meeting-template/less-than-greater-than.md)
-* [Study Meeting #01](meeting-template/study-meeting-01.md)
+## ❤ Python
+
+* [이것이 취업을 위한 코딩 테스트다](python/undefined/README.md)
+  * [그리디](python/undefined/undefined.md)
