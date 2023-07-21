@@ -3,6 +3,9 @@
 ## 📁 SQL
 
 * [DB Index](README.md)
+* [구글 빅쿼리 완벽 가이드](sql/undefined/README.md)
+  * [SQL 사용자 정의 함수](sql/undefined/sql.md)
+  * [고급쿼리 문제풀이](sql/undefined/undefined.md)
 
 ## ❤ Python
 
