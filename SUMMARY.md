@@ -2,10 +2,12 @@
 
 ## 📁 SQL
 
-* [DB Index](README.md)
-* [구글 빅쿼리 완벽 가이드](sql/undefined/README.md)
+* [구글 빅쿼리 완벽 가이드](README.md)
   * [SQL 사용자 정의 함수](sql/undefined/sql.md)
   * [고급쿼리 문제풀이](sql/undefined/undefined.md)
+* [프로덕트 분석](sql/undefined-1/README.md)
+  * [Retention](sql/undefined-1/retention.md)
+* [DB Index](<README (1).md>)
 
 ## ❤ Python
 
