@@ -6,6 +6,7 @@
   * [SQL 사용자 정의 함수](sql/undefined/sql.md)
   * [고급쿼리 문제풀이](sql/undefined/undefined.md)
 * [프로덕트 분석](sql/undefined-1/README.md)
+  * [Stickiness](sql/undefined-1/stickiness.md)
   * [Retention](sql/undefined-1/retention.md)
 * [DB Index](<README (1).md>)
 
