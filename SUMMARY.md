@@ -7,8 +7,11 @@
   * [고급쿼리 문제풀이](sql/undefined/undefined.md)
 * [프로덕트 분석](sql/undefined-1/README.md)
   * [Stickiness](sql/undefined-1/stickiness.md)
+  * [Last Click Attribution Model](sql/undefined-1/last-click-attribution-model.md)
+  * [Stickiness](sql/undefined-1/stickiness-1.md)
   * [Retention](sql/undefined-1/retention.md)
-* [DB Index](<README (1).md>)
+* [SQL 성능 최적화](sql/sql/README.md)
+  * [DB Index](sql/sql/db-index.md)
 
 ## ❤ Python
 
